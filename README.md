@@ -56,18 +56,24 @@ Projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları sıras
 Öncelikle proje dizinindeyken gerekli Python, Node.js ve .NET bağımlılıklarını yükleyin:
 
 # Python kütüphanelerini yükleyin
+```bash
 pip install -r requirements.txt
-
+```
 # Node.js modüllerini yükleyin
+```bash
 npm install
-
+```
+```bash
 cd Finans.GrpcServer
 dotnet run
-
+```
+```bash
 cd PasswordRecovery.Mac
 dotnet run
-
+```
+```bash
 cd FinansUygulmasi
 dotnet run
+```
 
 Tüm servisler "Now listening on..." mesajını verdikten sonra tarayıcınızdan uygulamaya erişebilirsiniz.
